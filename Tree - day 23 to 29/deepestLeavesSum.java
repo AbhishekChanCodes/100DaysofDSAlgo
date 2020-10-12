@@ -17,7 +17,7 @@ Approach: Calculate and update the sum at each level. We maintain a queue of nod
 
           Finally, the sum which we get when the queue becomes empty, is the sum of the deepest leaves.
 
-Time Complexity: O(N) where N is the number of nodes in the tree.
+Time Complexity: O(N) where N is the number of nodes in the tree. We only visit each node once.
 
 Space Complexity: O(N) since we store each node in the queue.
 
